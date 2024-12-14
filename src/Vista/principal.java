@@ -15,7 +15,7 @@ public class principal {
     private JLabel firma2;
 
     public principal() {
-        this.ventana = new JFrame("Nombre del bar");
+        this.ventana = new JFrame("Nombre del cliente");
         this.ventana.setBounds(0, 0, 500, 563);
         this.ventana.setLayout(null);
         this.ventana.setResizable(false);

@@ -15,7 +15,7 @@ public class principal {
     private JLabel firma2;
 
     public principal() {
-        this.ventana = new JFrame("Nombre del cliente");
+        this.ventana = new JFrame("Ventana principal");
         this.ventana.setBounds(0, 0, 500, 563);
         this.ventana.setLayout(null);
         this.ventana.setResizable(false);
@@ -27,7 +27,7 @@ public class principal {
         this.ventana.add(panel);
         this.panel.setVisible(true);
 
-        this.titulo = new JLabel("Nombre del bar");
+        this.titulo = new JLabel("Nombre del cliente");
         this.titulo.setOpaque(true);
         this.titulo.setBackground(Color.black);
         this.titulo.setFont(new Font("Tahoma", Font.BOLD, 20));
